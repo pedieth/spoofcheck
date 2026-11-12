@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>spoofcheck · stop scammers emailing your users from your domain</title>
+<meta name="description" content="SPF, DKIM and DMARC fixed for your domain for $49, so nobody can send phishing emails as you. Free check, pay after it works, USDC.">
+<meta property="og:title" content="spoofcheck · can anyone send email as you?">
+<meta property="og:description" content="Free spoofing check. Full SPF, DKIM and DMARC fix for $49. Pay after it passes.">
+<meta name="twitter:card" content="summary">
+<meta name="color-scheme" content="dark light">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+<header class="wrap top">
+  <span class="logo">spoofcheck</span>
+  <a class="btn small" href="mailto:pedi.eth.dao@gmail.com?subject=Free%20spoofing%20check">Free check</a>
+</header>
+<main>
+<section class="wrap hero">
+  <p class="eyebrow">For crypto projects, startups and online shops</p>
+  <h1>Can anyone send email as you?</h1>
+  <p class="lead">If your domain has no DMARC, or a weak SPF record, a scammer can send "support@yourdomain" emails straight to your users' inbox: fake airdrops, wallet-drain links, fake invoices. I lock your domain down so those emails get rejected, and your real emails stop landing in spam.</p>
+  <div class="cta">
+    <a class="btn" href="mailto:pedi.eth.dao@gmail.com?subject=Free%20spoofing%20check">Get a free check</a>
+    <a class="btn ghost" href="#pricing">$49 fix</a>
+  </div>
+  <p class="note">Written only. No calls. You pay only after your domain passes.</p>
+</section>
+
+<section class="wrap">
+  <h2>What I check and fix</h2>
+  <ul class="grid">
+    <li><b>DMARC</b><span>Missing, or set to "none" so it watches but blocks nothing. Taken step by step to quarantine, then reject.</span></li>
+    <li><b>SPF</b><span>Missing, too loose (~all, +all), over the 10-lookup limit, or listing tools you no longer use.</span></li>
+    <li><b>DKIM</b><span>Signing switched on for Google Workspace, Microsoft 365 and the tools that send as you.</span></li>
+    <li><b>Every sender</b><span>Newsletter, support desk, website forms, invoicing: each one found and authorised, so real mail keeps flowing.</span></li>
+    <li><b>Parked domains</b><span>Domains and subdomains you don't send from, locked so nobody can send from them either.</span></li>
+    <li><b>Gmail and Yahoo rules</b><span>The 2024 bulk-sender requirements met, so your announcements reach the inbox.</span></li>
+  </ul>
+</section>
+
+<section class="wrap" id="pricing">
+  <h2>Pricing</h2>
+  <div class="plans">
+    <div class="plan">
+      <h3>Free check</h3>
+      <p class="price">$0</p>
+      <ul><li>Send me your domain</li><li>Written result in 24 hours</li><li>Can it be spoofed, and the exact records to fix it</li></ul>
+    </div>
+    <div class="plan hl">
+      <h3>Fix</h3>
+      <p class="price">$49<small> per domain</small></p>
+      <ul><li>SPF, DKIM and DMARC set up and aligned</li><li>Up to 4 sending tools</li><li>Test emails to Gmail, Outlook and Yahoo</li><li>Before and after report</li><li>Done in 48 hours</li></ul>
+    </div>
+    <div class="plan">
+      <h3>Lock to reject</h3>
+      <p class="price">$9<small>/month</small></p>
+      <ul><li>I read your DMARC reports</li><li>Move you safely to p=reject</li><li>Alert if someone tries to spoof you</li><li>Cancel any time</li></ul>
+    </div>
+  </div>
+  <p class="note">For comparison, the same setup usually costs $199 to $350 per domain, and up to $750 or more with agencies.</p>
+</section>
+
+<section class="wrap">
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li>Email me your domain. Free check back in 24 hours.</li>
+    <li>If you want the fix, you add the DNS records I send, or give me temporary DNS access.</li>
+    <li>I send test emails and a before and after report.</li>
+    <li>Your domain passes, then you pay $49 in USDC or USDT.</li>
+  </ol>
+</section>
+
+<section class="wrap">
+  <h2>Questions</h2>
+  <details><summary>Will this break my email?</summary><p>No. DMARC starts in watch mode and only tightens once every real sender passes.</p></details>
+  <details><summary>Do you need my passwords?</summary><p>No. You can add the records yourself; I send them exactly as they should be pasted.</p></details>
+  <details><summary>Can you guarantee the inbox?</summary><p>Nobody can. This removes the most common reason mail is rejected or spoofed.</p></details>
+  <details><summary>Who's behind this?</summary><p>I'm Pedi, in crypto since 2019. I also run <a href="https://pedieth.github.io/shipcheck/">shipcheck</a>, security checks for Supabase and Firebase apps.</p></details>
+</section>
+</main>
+<footer class="wrap foot">
+  <a href="mailto:pedi.eth.dao@gmail.com">pedi.eth.dao@gmail.com</a>
+  <a href="https://t.me/PediETH">Telegram @PediETH</a>
+  <a href="https://x.com/Pedi_eth">X @Pedi_eth</a>
+  <a href="https://github.com/pedieth">GitHub</a>
+</footer>
+</body>
+</html>
